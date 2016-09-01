@@ -28,6 +28,11 @@ namespace Snake
             pointList.Add(p3);
             pointList.Add(p4);
 
+            HorizontalLine hLine = new HorizontalLine(1, 7, 9, '&');
+            hLine.Drow();
+            VerticallLine vLine = new VerticallLine(10, 17, 9, 'x');
+            vLine.Drow();
+
             Console.ReadLine();
 
 
