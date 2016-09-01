@@ -16,6 +16,18 @@ namespace Snake
             Point p2 = new Snake.Point(4, 5, '#');
             p2.Draw();
 
+            Point p3 = new Snake.Point(2, 6, '%');
+            p3.Draw();
+
+            Point p4 = new Snake.Point(7, 4, '&');
+            p4.Draw();
+
+            List<Point> pointList = new List<Point>();
+            pointList.Add(p1);
+            pointList.Add(p2);
+            pointList.Add(p3);
+            pointList.Add(p4);
+
             Console.ReadLine();
 
 
